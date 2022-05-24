@@ -67,7 +67,7 @@ source.complete = function(self, request, callback)
 
     self.timer:stop()
     self.timer:start(
-        request.option.debounce or 300,
+        request.option.debounce or 500,
         0,
         vim.schedule_wrap(function()
             vim.fn.jobstop(self.running_job_id)
