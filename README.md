@@ -1,6 +1,6 @@
 # cmp-gitlog
 
-Suggest completions based on file history (`git log -p <current_file>`) for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).
+Suggest completions based on git file history (`git log -p <current_file>`) for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).
 **Based on [lukas-reineke/cmp-rg](https://github.com/lukas-reineke/cmp-rg).**
 
 ## Requirements
