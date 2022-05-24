@@ -1,1 +1,29 @@
 # cmp-gitlog
+
+Suggest completions based on file history (`git log -p <current_file>`) for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).
+
+## Requirements
+
+- Linux or MacOS
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
+- Neovim 0.7.0+
+
+## Installation
+
+Example via [packer](https://github.com/wbthomason/packer.nvim):
+
+```lua
+use("barklan/cmp-gitlog")
+```
+
+## Setup
+
+Add `gitlog` to your cmp sources:
+
+```lua
+require("cmp").setup({
+    sources = {
+        { name = "gitlog", max_item_count = 5 },
+    }
+})
+```
