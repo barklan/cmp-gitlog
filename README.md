@@ -1,13 +1,13 @@
 # cmp-gitlog
 
 Suggest completions based on file history (`git log -p <current_file>`) for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).
-**Based on [lukas-reineke/cmp-rg](https://github.com/lukas-reineke/cmp-rg)**.
+**Based on [lukas-reineke/cmp-rg](https://github.com/lukas-reineke/cmp-rg).**
 
 ## Requirements
 
 - Linux or MacOS
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
-- Neovim 0.7.0+
+- Neovim 0.7.0+ and [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 
 ## Installation
 
