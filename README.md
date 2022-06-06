@@ -3,11 +3,9 @@
 Suggest completions based on git file history (`git log -p <current_file>`) for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).
 **Based on [lukas-reineke/cmp-rg](https://github.com/lukas-reineke/cmp-rg).**
 
-![screenshot](screenshot.png)
-
 ## Requirements
 
-- Linux or MacOS
+- Linux or MacOS (uses pipes)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
 - Neovim 0.7.0+ and [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 
@@ -30,3 +28,7 @@ require("cmp").setup({
     }
 })
 ```
+
+## Usage
+
+Trigger character is `!`.
